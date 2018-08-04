@@ -1,9 +1,9 @@
 # GitHack
 
 
-GitHack is a `.git` folder disclosure exploit. 
+GitHack is a `.git` folder disclosure exploit. （Git Hack是一个'.git '文件夹泄露漏洞。）
 
-It rebuild source code from .git folder while keep directory structure unchanged.
+It rebuild source code from .git folder while keep directory structure unchanged.（它从Git文件夹重建源代码，同时保持目录结构不变。）
 
 GitHack是一个.git泄露利用脚本，通过泄露的.git文件夹下的文件，重建还原工程源代码。
 
@@ -18,6 +18,4 @@ GitHack是一个.git泄露利用脚本，通过泄露的.git文件夹下的文�
 ## 用法示例 ##
     GitHack.py http://www.openssl.org/.git/
 
-## Thanks ##
-Thanks for sbp's great work, I used his .git index parser [gin - a Git index file parser](https://github.com/sbp/gin).
 
